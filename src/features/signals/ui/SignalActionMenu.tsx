@@ -1,6 +1,6 @@
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
-import iconComplete from '../../assets/icon-complete.svg'
-import iconRemove from '../../assets/icon-remove.svg'
+import iconComplete from '@/features/signals/assets/icon-complete.svg'
+import iconRemove from '@/features/signals/assets/icon-remove.svg'
 
 interface SignalActionMenuProps {
   onComplete: () => void

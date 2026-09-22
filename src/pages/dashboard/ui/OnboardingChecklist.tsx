@@ -1,9 +1,9 @@
-import { Card, CardTitle } from '../../../components/ui/Card'
-import iconExtension from '../../../assets/icon-extension.svg'
-import iconAddContact from '../../../assets/icon-add-contact.svg'
-import iconTargetGoal from '../../../assets/icon-target-goal.svg'
-import iconAddToStrategy from '../../../assets/icon-add-to-strategy.svg'
-import iconRunTask from '../../../assets/icon-run-task.svg'
+import iconAddContact from '@/pages/dashboard/assets/icon-add-contact.svg'
+import iconAddToStrategy from '@/pages/dashboard/assets/icon-add-to-strategy.svg'
+import iconExtension from '@/pages/dashboard/assets/icon-extension.svg'
+import iconRunTask from '@/pages/dashboard/assets/icon-run-task.svg'
+import iconTargetGoal from '@/pages/dashboard/assets/icon-target-goal.svg'
+import { Card, CardTitle } from '@/shared/ui/Card'
 
 interface OnboardingStepData {
   label: string

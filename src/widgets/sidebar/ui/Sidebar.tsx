@@ -1,14 +1,14 @@
 import { ChevronsLeft } from 'lucide-react'
-import cronoLogo from '../../../assets/crono-logo.svg'
-import iconGift from '../../../assets/icon-gift.svg'
-import iconTrialSquiggle from '../../../assets/icon-trial-squiggle.svg'
-import { NAV_ITEMS } from './sidebar.config'
+import { useState } from 'react'
+import cronoLogo from '@/widgets/sidebar/assets/crono-logo.svg'
+import iconGift from '@/widgets/sidebar/assets/icon-gift.svg'
+import iconTrialSquiggle from '@/widgets/sidebar/assets/icon-trial-squiggle.svg'
+import { NAV_ITEMS } from '../model/sidebar.config'
 import { SidebarNav } from './SidebarNav'
 import { SidebarUser } from './SidebarUser'
-import { useActiveItem } from './useActiveItem'
 
 export function Sidebar() {
-  const { activeItem, setActiveItem } = useActiveItem('dashboard')
+  const [activeItem, setActiveItem] = useState('dashboard')
 
   return (
     <aside className="border-border-default bg-surface-primary sticky top-0 hidden h-screen w-52 shrink-0 flex-col justify-between border-r md:flex">

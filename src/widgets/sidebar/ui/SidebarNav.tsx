@@ -1,5 +1,5 @@
 import { IconChevron } from './icons/IconChevron'
-import type { SidebarNavEntry } from './sidebar.config'
+import type { SidebarNavEntry } from '../model/sidebar.config'
 
 interface SidebarNavProps {
   items: readonly SidebarNavEntry[]

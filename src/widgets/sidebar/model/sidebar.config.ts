@@ -1,12 +1,12 @@
 import type { ComponentType, SVGProps } from 'react'
-import { IconAnalytics } from './icons/IconAnalytics'
-import { IconDashboard } from './icons/IconDashboard'
-import { IconDeals } from './icons/IconDeals'
-import { IconInbox } from '../../../components/ui/icons/IconInbox'
-import { IconSearch } from './icons/IconSearch'
-import { IconSequences } from './icons/IconSequences'
-import { IconTasks } from './icons/IconTasks'
-import { IconTemplates } from './icons/IconTemplates'
+import { IconInbox } from '@/shared/ui/icons/IconInbox'
+import { IconAnalytics } from '../ui/icons/IconAnalytics'
+import { IconDashboard } from '../ui/icons/IconDashboard'
+import { IconDeals } from '../ui/icons/IconDeals'
+import { IconSearch } from '../ui/icons/IconSearch'
+import { IconSequences } from '../ui/icons/IconSequences'
+import { IconTasks } from '../ui/icons/IconTasks'
+import { IconTemplates } from '../ui/icons/IconTemplates'
 
 export interface SidebarNavEntry {
   id: string

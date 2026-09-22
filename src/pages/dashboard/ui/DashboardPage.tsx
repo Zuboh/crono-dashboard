@@ -1,9 +1,9 @@
-import { SignalsPanel } from '../../features/signals/SignalsPanel'
-import { OnboardingChecklist } from './components/OnboardingChecklist'
-import { PerformanceCard } from './components/PerformanceCard'
-import { RepliesCard } from './components/RepliesCard'
-import { TodaysTasks } from './components/TodaysTasks'
-import { WelcomeCard } from './components/WelcomeCard'
+import { SignalsPanel } from '@/features/signals'
+import { OnboardingChecklist } from './OnboardingChecklist'
+import { PerformanceCard } from './PerformanceCard'
+import { RepliesCard } from './RepliesCard'
+import { TodaysTasks } from './TodaysTasks'
+import { WelcomeCard } from './WelcomeCard'
 
 export function DashboardPage() {
   return (

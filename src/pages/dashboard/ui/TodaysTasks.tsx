@@ -1,5 +1,5 @@
 import { ChevronRight } from 'lucide-react'
-import { Card, CardTitle } from '../../../components/ui/Card'
+import { Card, CardTitle } from '@/shared/ui/Card'
 import { IconAlertTriangle } from './icons/IconAlertTriangle'
 
 const TASKS = [

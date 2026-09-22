@@ -1,17 +1,16 @@
-import { AppShell } from '../components/ui/AppShell'
-import { DashboardPage } from '../pages/dashboard/DashboardPage'
-import { Sidebar } from './layout/Sidebar/Sidebar'
+import { DashboardPage } from '@/pages/dashboard'
+import { Sidebar } from '@/widgets/sidebar'
 
 function App() {
   return (
-    <AppShell>
+    <div className="flex min-h-screen bg-[#f5f6f8] text-text-primary">
       <Sidebar />
       <main className="min-w-0 flex-1 p-4">
         <div className="mx-auto grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
           <DashboardPage />
         </div>
       </main>
-    </AppShell>
+    </div>
   )
 }
 

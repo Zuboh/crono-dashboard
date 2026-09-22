@@ -1,10 +1,25 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './app/App.tsx'
+import App from '@/app/App'
+import '@/app/styles/index.css'
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+async function enableMocking() {
+  if (import.meta.env.VITE_API_URL) return
+
+  const { worker } = await import('@/features/signals/api/signals.browser')
+  await worker.start({ onUnhandledRequest: 'bypass' })
+}
+
+function renderApp() {
+  createRoot(document.getElementById('root')!).render(
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  )
+}
+
+enableMocking()
+  .catch((error: unknown) => {
+    console.error('Unable to start the mock API', error)
+  })
+  .finally(renderApp)

@@ -1,7 +1,7 @@
-import type { Signal, SignalTag } from './signals.types'
-import { getContactAvatar } from './signals.avatars'
+import { Avatar } from '@/shared/ui/Avatar'
+import type { Signal, SignalTag } from '../model/signals.types'
 import { SignalActionMenu } from './SignalActionMenu'
-import { Avatar } from '../../components/ui/Avatar'
+import { getContactAvatar } from './signals.avatars'
 
 const TAG_COLORS: Record<SignalTag, string> = {
   'Role change': 'text-[#8846DC]',

@@ -1,11 +1,11 @@
 import { ChevronRight } from 'lucide-react'
-import avatarAmazon from '../../../assets/avatar-amazon.svg'
-import avatarMcdonalds from '../../../assets/avatar-mcdonalds.svg'
-import avatarReddit from '../../../assets/avatar-reddit.svg'
-import { Card } from '../../../components/ui/Card'
-import { Avatar } from '../../../components/ui/Avatar'
-import { TextAction } from '../../../components/ui/TextAction'
-import { IconInbox } from '../../../components/ui/icons/IconInbox'
+import avatarAmazon from '@/shared/assets/avatars/avatar-amazon.svg'
+import avatarMcdonalds from '@/shared/assets/avatars/avatar-mcdonalds.svg'
+import avatarReddit from '@/shared/assets/avatars/avatar-reddit.svg'
+import { Avatar } from '@/shared/ui/Avatar'
+import { Card } from '@/shared/ui/Card'
+import { TextAction } from '@/shared/ui/TextAction'
+import { IconInbox } from '@/shared/ui/icons/IconInbox'
 
 const REPLY_CONTACTS = [
   { name: 'Robert Smith' },

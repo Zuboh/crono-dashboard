@@ -1,7 +1,7 @@
-import avatarAmazon from '../../assets/avatar-amazon.svg'
-import avatarMcdonalds from '../../assets/avatar-mcdonalds.svg'
-import avatarMedium from '../../assets/avatar-medium.svg'
-import avatarReddit from '../../assets/avatar-reddit.svg'
+import avatarMedium from '@/features/signals/assets/avatar-medium.svg'
+import avatarAmazon from '@/shared/assets/avatars/avatar-amazon.svg'
+import avatarMcdonalds from '@/shared/assets/avatars/avatar-mcdonalds.svg'
+import avatarReddit from '@/shared/assets/avatars/avatar-reddit.svg'
 
 const CONTACT_AVATARS: Record<string, string> = {
   amazon: avatarAmazon,
