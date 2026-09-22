@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "contact": "Robert Smith",
+    "event": "changed role from SDR to Senior SDR at WeRoad",
+    "tag": "Role change",
+    "sequenceTag": true,
+    "timestamp": "Apr 1, 2025",
+    "unread": true
+  },
+  {
+    "id": "2",
+    "contact": "Robert Smith",
+    "event": "changed role from SDR to Senior SDR at WeRoad",
+    "tag": "Company change",
+    "sequenceTag": true,
+    "timestamp": "Apr 2, 2025",
+    "unread": true
+  },
+  {
+    "id": "3",
+    "contact": "Robert Smith",
+    "event": "changed role from SDR to Senior SDR at WeRoad",
+    "tag": "Role change",
+    "timestamp": "Apr 2, 2025",
+    "unread": true
+  },
+  {
+    "id": "4",
+    "contact": "Amazon",
+    "event": "viewed 2 pages of your website for 55 sec",
+    "tag": "Website view",
+    "highlight": "2 pages",
+    "timestamp": "Apr 3, 2025",
+    "unread": true
+  },
+  {
+    "id": "5",
+    "contact": "Amazon",
+    "event": "viewed 2 pages of your website for 55 sec",
+    "tag": "Website view",
+    "highlight": "2 pages",
+    "timestamp": "Apr 3, 2025",
+    "unread": true
+  },
+  {
+    "id": "6",
+    "contact": "Reddit",
+    "event": "viewed 3 pages of your website for 40 sec",
+    "tag": "Website view",
+    "highlight": "3 pages",
+    "timestamp": "Apr 4, 2025",
+    "unread": true
+  },
+  {
+    "id": "7",
+    "contact": "McDonald's",
+    "event": "viewed 1 page of your website for 20 sec",
+    "tag": "Website view",
+    "highlight": "1 page",
+    "timestamp": "Apr 4, 2025",
+    "unread": true
+  },
+  {
+    "id": "8",
+    "contact": "Medium",
+    "event": "viewed 4 pages of your website for 1 min",
+    "tag": "Website view",
+    "highlight": "4 pages",
+    "timestamp": "Apr 5, 2025",
+    "unread": true
+  }
+]

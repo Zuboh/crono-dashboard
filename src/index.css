@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-surface-primary: #ffffff;
+  --color-surface-subtle: #f1f5f9;
+  --color-surface-warning: #fef3d2;
+  --color-surface-avatar: #d5e0f0;
+  --color-text-primary: #010e27;
+  --color-text-secondary: #3e485b;
+  --color-text-muted: #7a8395;
+  --color-border-default: #e2e8f0;
+  --color-brand-interactive: #0a9b94;
+  --color-accent-warning: #f9bb06;
+  --color-accent-blue: #3b85e8;
+  --color-accent-green: #1a9d6e;
+  --color-surface-teal-subtle: #e9f8f8;
+  --color-scrollbar-thumb: #e6e9f2;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', system-ui, sans-serif;
+  min-width: 320px;
+  background: #f5f6f8;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-scrollbar-thumb) var(--color-surface-primary);
+}
+
+html::-webkit-scrollbar {
+  width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--color-surface-primary);
+  border-left: 1px solid var(--color-border-default);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar-thumb);
+  border-radius: 4px;
+  border: 2px solid var(--color-surface-primary);
+  background-clip: padding-box;
+}
